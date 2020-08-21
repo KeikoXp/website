@@ -9,4 +9,5 @@ def home():
 
     return render_template("main.html", nium_avatar=nium_avatar, marjorie_avatar=marjorie_avatar)
 
-app.run()
+if __name__ == '__main__':
+    app.run(debug=True)
