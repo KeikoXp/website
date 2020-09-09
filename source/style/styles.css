@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
 
     color: white;
+
+    font-family: 'Open Sans', sans-serif;
+
+    text-shadow: 1px 1px rgba(255, 71, 71, 0.342);
 }
 
 #container {
@@ -15,16 +21,6 @@
     height: 100%;
 
     background-color: rgb(17, 17, 17);
-}
-
-.item {
-    
-}
-
-.box {
-    padding: 25px;
-    text-align: center;
-    background-color: chocolate;
 }
 
 #buttons {
@@ -41,6 +37,7 @@
     text-align: center;
     background-color: rgba(255, 71, 71, 0.068);
     border: 2px solid rgb(255, 71, 71);
+    text-decoration: none;
     transition: 0.5s;
 }
 
@@ -67,16 +64,16 @@
 }
 
 #bot-name {
+    display: flex;
     font-size: 70px;
+    margin-bottom: 25px;
+}
+
+#bot-descriminator {
+    opacity: 25%;
 }
 
 #bot-description {
     max-width: 50ch;
     font-size: 30px;
 }
-
-@media (max-width: 600px) {
-    #container {
-      background-color: lightblue;
-    }
-  }
