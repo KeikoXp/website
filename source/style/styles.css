@@ -32,7 +32,7 @@
 .fake-button {
     font-size: 30px;
     padding: 10px;
-    min-width: 300px;
+    min-width: 500px;
     margin: 7px;
     text-align: center;
     background-color: rgba(255, 71, 71, 0.068);
@@ -65,15 +65,19 @@
 
 #bot-name {
     display: flex;
+    align-items: center;
     font-size: 70px;
     margin-bottom: 25px;
 }
 
 #bot-descriminator {
+    margin-top: 12px;
     opacity: 25%;
+    font-size: 45px;
 }
 
 #bot-description {
     max-width: 50ch;
     font-size: 30px;
+    text-align: justify;
 }
