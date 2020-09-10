@@ -13,72 +13,62 @@ body {
     display: grid;
     place-items: center;
 
+    padding: 30px;
+
     background-color: rgb(17, 17, 17);
 }
 
-.user-card {
-    background-color: rgba(255, 71, 71, 0.116);
+.discord-messages-container {
+    max-width: 700px;
+}
+
+.discord-container {
+    margin: 10px;
+
+    display: flex;
+    flex-direction: row;
+
+    padding: 10px;
+
+    border: 1px solid rgb(255, 71, 71);
+
+    background-color: rgba(255, 71, 71, 0.048);
+}
+
+.discord-container h1 {
+    font-size: 27px;
+}
+
+.discord-avatar {
+    width: 70px;
+    height: 70px;
+
     border: 2px solid rgb(255, 71, 71);
+    border-radius: 50%;
 
-    width: 250px;
+    margin-right: 15px;
+}
 
-    position: none;
-    height: max-content;
-
+.discord-user-info {
     display: flex;
     flex-direction: column;
-
-    justify-content: center;
-
-    padding: 1rem;
-
-    text-align: center;
-    margin: 15px;
 }
 
-.user-img {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-
-    border: 2px solid rgba(255, 71, 71, 0.52);
-
-    width: 250px;
-    height: 250px;
+.discord-user-info h1 {
+    color: rgb(253, 89, 89)
 }
 
-.user-img p {
-    opacity: 0;
-    padding: 5px;
-    transition: 0.8s;
+.discord-user-tags{
+    margin-top: 15px;
 }
 
-.user-img:hover p {
-    opacity: 1;
-    transition: 0.6s;
+.tag {
+    background-color: rgba(255, 71, 71, 0.205);
+    border: 1px solid rgb(255, 71, 71);
+    padding: 1px 7px 1px 7px;
+    margin: 10px 5px 0px 0px;
 }
 
-.user-img img {
-    position: absolute;
-
-    width: 250px;
-    height: 250px;
-
-    transition: 1s;
-}
-
-.user-img:hover img {
-    opacity: 15%;
-    transition: 0.5s;
-}
-
-@keyframes teste {
-    0% { height: 0%; }
-    50% { height: 50%; }
-    100% { height: 100%; }
-  }
-
-.flex {
-    display: flex;
+#main-page-link {
+    text-decoration: none;
 }
