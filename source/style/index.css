@@ -1,0 +1,65 @@
+* {
+    padding: 0px; margin: 0px;
+
+    color: white;
+    text-align: center;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body {background-color:  rgb(17, 17, 17);}
+
+.display-flex {display: flex}
+.max-size {height: 100%; width: 100%;}
+.max-height {height: 100%;}
+.max-width {width: 100%;}
+
+.bar {background-color: rgba(35, 185, 255, 0.1);
+    height: 50px; width: 100%; position: absolute;}
+
+#top {border-bottom: rgb(35, 185, 255) solid 2px;
+justify-content: space-between; align-items: center;}
+#bottom {border-top: rgb(35, 185, 255) solid 2px; bottom: 0; justify-content: space-around;}
+
+.container {display: grid;
+    place-content: center;}
+
+#image {width: 200px; height: 200px;
+    overflow: hidden; border-radius: 50%;
+    border: rgb(35, 185, 255, 0.75) solid 2px;}
+#image img {width: auto; height: 100%; margin-left: -60px;}
+
+#content {margin-left: 25px;}
+#content #title {margin-bottom: 25px;}
+#content #title strong {color: rgb(50, 190, 255);}
+
+#buttons {display: flex; justify-content: space-evenly;}
+#buttons a {
+    width: 25%; font-size: 150%;
+    background-color: rgba(35, 185, 255, 0.05);
+    border: rgb(35, 185, 255) dashed 2px;
+    padding: 10px 35px 10px 35px; text-decoration: none;}
+#buttons a:hover {background-color: rgba(35, 185, 255, 0.2);}
+#buttons a:active {opacity: 50%;}
+
+.reference {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.reference img {width: 30px; height: 30px;}
+.reference p {margin: 3px 0px 0px 5px;}
+
+#name {align-items: center; margin-left: 50px;}
+#name span {color: rgba(50, 190, 255, 0.658);}
+
+#top-buttons {margin-right: 40px; font-size: 120%;}
+#top-buttons a {
+    margin: 0px 15px 0px 15px;
+    border-left: rgba(35, 185, 255, 1) solid 2px;
+    border-right: rgba(35, 185, 255, 0.05) solid 2px;
+    border-bottom: rgba(35, 185, 255, 0.05) solid 2px;
+    border-top: rgba(35, 185, 255, 0.05) solid 2px;
+    padding: 2px 15px 2px 15px;
+}

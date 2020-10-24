@@ -3,25 +3,50 @@
 <html>
     <head>
         <title>Marjorie</title>
-        <link rel="stylesheet" href="source/style/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="source/style/index.css">
     </head>
 
     <body>
-        <div id="container">
-            <div id="bot-container">
-                <img id="bot-avatar" src="source/asset/marjorie.gif">
-                <span id="bot-name">Marjorie
-                    <span id="bot-descriminator">#4304</span>
-                </span>
-                <span id="bot-description">&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eveniet rem neque mollitia, amet molestiae quos quaerat inventore ab praesentium voluptate, ad sunt blanditiis earum explicabo expedita eos animi aspernatur!</span>
+        <div id="top" class="display-flex bar">
+            <div id="name" class="display-flex">
+                <h1>Marjorie</h1><span>#4304</span>
             </div>
 
-            <div id="buttons">
-                <a class="fake-button" href="https://discord.gg/UwpT7Ur" target="_blank">Suporte</a>
-                <a class="fake-button" href="https://discord.com/oauth2/authorize?client_id=540604003105374210&permissions=8&scope=bot" target="_blank">Convite</a>
-                <a class="fake-button" href="source/html/commands.html">Comandos</a>
-                <a class="fake-button" href="source/html/team.html">Equipe</a>
+            <div id="top-buttons" class="display-flex">
+                <a href=" ">Commands</a>
+                <a href=" ">Help</a>
             </div>
+        </div>
+
+        <div class="container max-size" style="position: absolute;">
+            <div class="display-flex" >
+                <div id="image">
+                    <img id="marjorie-img" src="source/assets/avatars/marjorie.jpg">
+                </div>
+                <div id="content" class="container">
+                    <h1 id="title">A new way to have <strong>fun</strong> in Discord!</h1>
+                    <div id="buttons" class="display-flex">
+                        <a href="https://discord.com/oauth2/authorize?client_id=540604003105374210&permissions=8&scope=bot" target="blank_" max-height">Invite</a>
+                        <a href="https://discord.gg/UwpT7Ur" target="blank_">Support</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="bottom" class="display-flex bar">
+            <a class="reference" href="https://github.com/MarjorieXp" target="blank_">
+                <img src="source/assets/icons/github.png">
+                <p>GitHub</p>
+            </a>
+            <a class="reference" href="https://discord.gg/UwpT7Ur" target="blank_">
+                <img src="source/assets/icons/discord.png">
+                <p>Discord</p>
+            </a>
+            <a class="reference" href="https://trello.com/b/BhHwLU18" target="blank_">
+                <img src="source/assets/icons/trello.png">
+                <p>Trello</p>
+            </a>
         </div>
     </body>
 </html>
