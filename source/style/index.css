@@ -10,6 +10,7 @@
 body {background-color:  rgb(17, 17, 17);}
 
 .display-flex {display: flex}
+.position-absolute {position: absolute;}
 .max-size {height: 100%; width: 100%;}
 .max-height {height: 100%;}
 .max-width {width: 100%;}
@@ -62,4 +63,12 @@ justify-content: space-between; align-items: center;}
     border-bottom: rgba(35, 185, 255, 0.05) solid 2px;
     border-top: rgba(35, 185, 255, 0.05) solid 2px;
     padding: 2px 15px 2px 15px;
+}
+
+@media (min-width: 640px) {
+    #middle {display: flex;}
+}
+
+@media (max-width: 640px){
+    #middle {display: flexbox;}
 }
